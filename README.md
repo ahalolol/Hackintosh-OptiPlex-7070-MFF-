@@ -34,8 +34,14 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
   * Untested LAN but device recognized
 * Sleep & Wakeup
 * OTA via builtin software updater
+* Filevault
 
 
+## Notes
+* restrictevent.kext is using https://github.com/Lorys89/RestrictEvents to prevent the need for additional bootarg
+* Apple Secure Boot via OpenCore is Full
+* SIP is enabled
+* Device must be mac mini 2018
 
 
 ## BIOS Settings

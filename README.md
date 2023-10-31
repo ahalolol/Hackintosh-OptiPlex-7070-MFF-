@@ -45,6 +45,7 @@ This is built based on https://github.com/webleon/Hackintosh-OptiPlex-7070-MFF w
 * restrictevent.kext is using https://github.com/Lorys89/RestrictEvents to prevent the need for additional bootarg
 * Apple Secure Boot via OpenCore is Full
 * SIP is enabled
+* Boot sound in Resources.zip
 
 
 ## BIOS Settings

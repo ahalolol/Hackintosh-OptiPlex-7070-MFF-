@@ -7,7 +7,11 @@
 ## Introdution
 This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Micro Form Factor. 
 This is built based on https://github.com/webleon/Hackintosh-OptiPlex-7070-MFF with new Config fitting Opencore 0.9.5 and recommendations found on the Opencore Tutorial.
-You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMBIOS) before login to your iCloud account.
+
+## Preparation
+* You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMBIOS) before login to your iCloud account.
+* You will need to generate your own [**ApECID**](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#special-notes-with-securebootmodel).
+* SMBIOS must be MAC mini 2018
 
 
 ## Hardware Specs
@@ -41,7 +45,6 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * restrictevent.kext is using https://github.com/Lorys89/RestrictEvents to prevent the need for additional bootarg
 * Apple Secure Boot via OpenCore is Full
 * SIP is enabled
-* Device must be mac mini 2018
 
 
 ## BIOS Settings
